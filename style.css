@@ -1,0 +1,243 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+@media only screen and (min-width:856px) and (max-width:1282px) {
+    body {
+        background-image: url(./shara\ desert.jpg);
+        overflow: scroll;
+        background-size: contain;
+        background-repeat: repeat;
+       
+    }
+  }
+
+.navbar{
+    position: relative;
+    left: 60%;
+    color: white;
+    top: 40px;
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .navbar{
+        position: absolute;
+        left: 393px;
+    }
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+    position: relative;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    z-index: +1;
+    background-color: rgba(255, 255, 255, 0.538);
+    left: 1317px;
+    top: 32px;
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .icon{
+        position: absolute;
+        left: 790px;
+        top: 23px;
+    }
+}
+
+.navbar img{
+    position: absolute;
+    left: -55rem;
+    width: 82px;
+    top: -29px;
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .navbar img{
+        
+        left: -21rem;
+    }
+}
+
+
+.flex-box{
+    display: flex;
+    position: absolute;
+    left: 52%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 58px;
+    justify-content: space-evenly;
+    margin: 65px;
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .flex-box{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        left: 1px;
+        top: 300px;
+    }
+
+}
+
+
+.flex-content1{
+    width: 222px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    margin-bottom: 30px;
+    cursor: pointer;
+
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .flex-content1{
+        position: relative;
+        width: 62vw;
+        background-position: center;
+    }
+}
+
+
+.flex-content1:hover{
+
+   position: relative;
+   bottom: 10px;
+}
+.flex-content2{
+    width: 222px;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.flex-content2:hover{
+
+    position: relative;
+    bottom: 10px;
+ }
+ @media only screen and (min-width:856px) and (max-width:1282px){
+    .flex-content2{
+        position: relative;
+        width: 62vw;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+}
+.flex-content3{
+    width: 222px;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.flex-content3:hover{
+
+    position: relative;
+    bottom: 10px;
+ }
+ @media only screen and (min-width:856px) and (max-width:1282px){
+    .flex-content3{
+        position: relative;
+        width: 62vw;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+}
+.flex-content4{
+    width: 222px;
+    height: 250px;
+    border-radius: 5px;
+    background-image: url(./pic-4.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.flex-content4:hover{
+
+    position: relative;
+    bottom: 10px;
+ }
+ @media only screen and (min-width:856px) and (max-width:1282px){
+    .flex-content4{
+        position: relative;
+        width: 62vw;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+}
+.content{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 176px;
+    top: 224px;
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .content{
+        position: absolute;
+    top: 57px;
+    font-size: 20px;
+    left: 50px;
+    }
+}
+
+.paragraph1{
+    position: relative;
+    font-size: 16px;
+    bottom: 73px;
+    width: 527px;
+    line-height: 27px;
+
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .paragraph1{
+        position: relative;
+        top: -23px;
+        width: 88%;
+    }
+}
+.btn{
+    width: 199px;
+    height: 46px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 70%;
+    left: 12%;
+}
+@media only screen and (min-width:856px) and (max-width:1282px){
+    .btn{
+        position: absolute;
+        top: 249px;
+        left: 38px;
+    }
+}
+.btn-content{
+    margin: 16px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+.flext-heading{
+    color: white;
+    margin: 25px;
+    font-size: 15px;
+}
+.flex-para{
+    font-size: 10px;
+    line-height: 27px;
+    margin: 0;
+}
